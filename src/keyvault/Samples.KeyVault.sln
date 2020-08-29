@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.KeyVault", "Samples.KeyVault\Samples.KeyVault.csproj", "{F0EE7B47-955B-4F42-9C60-E0C9F2B982E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{E49130FB-D1CA-4177-A6F4-E95BBCE3B951}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+	LICENSE = LICENSE
+	readme.md = readme.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4C736CC-3EAC-4C98-B80D-57EE55F9E8E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".terraform", ".terraform", "{65ACE72C-69EA-4D89-8E74-558DFC3B7FB9}"
+ProjectSection(SolutionItems) = preProject
+	terraform\version.tf = terraform\version.tf
+	terraform\configuration.auto.tfvars = terraform\configuration.auto.tfvars
+	terraform\main.tf = terraform\main.tf
+	terraform\outputs.tf = terraform\outputs.tf
+	terraform\variables.tf = terraform\variables.tf
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0EE7B47-955B-4F42-9C60-E0C9F2B982E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EE7B47-955B-4F42-9C60-E0C9F2B982E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EE7B47-955B-4F42-9C60-E0C9F2B982E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EE7B47-955B-4F42-9C60-E0C9F2B982E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0EE7B47-955B-4F42-9C60-E0C9F2B982E7} = {A4C736CC-3EAC-4C98-B80D-57EE55F9E8E0}
+	EndGlobalSection
+EndGlobal
